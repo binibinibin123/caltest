@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>정확하고 빠른 계산기 모음 - Modern Calculator</title>
+    <meta name="description" content="만 나이, 한국 나이, 수명, 출생 연도 등 다양한 계산기를 한 곳에서! Modern Calculator에서 쉽고 빠르게 계산해보세요." />
+    <meta name="keywords" content="계산기, 만 나이 계산기, 한국 나이 계산기, 수명 계산기, 출생 연도 계산기, 수능 계산기, 퇴직 나이 계산기, 온라인 계산기" />
+    <meta name="author" content="Modern Calculator" />
+
+    <!-- Open Graph 태그 (소셜 미디어 공유 최적화) -->
+    <meta property="og:title" content="Modern Calculator - 다양한 계산기 모음" />
+    <meta property="og:description" content="만 나이, 한국 나이, 수명 계산기 등 다양한 계산기를 제공하는 웹사이트입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://modern-calculator.com" /> <!-- 실제 웹사이트 URL로 변경 -->
+    <meta property="og:image" content="/vite.svg" /> <!-- 대표 이미지 URL (필요시 변경) -->
+
+    <!-- Twitter 카드 태그 (트위터 공유 최적화) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Modern Calculator - 다양한 계산기 모음" />
+    <meta name="twitter:description" content="만 나이, 한국 나이, 수명 계산기 등 다양한 계산기를 제공하는 웹사이트입니다." />
+    <meta name="twitter:image" content="/vite.svg" /> <!-- 대표 이미지 URL (필요시 변경) -->
+
+    <!-- 구조화된 데이터 (Schema Markup) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Modern Calculator",
+        "url": "https://modern-calculator.com",  // 실제 웹사이트 URL로 변경
+        "description": "다양한 온라인 계산기를 제공하는 웹사이트입니다.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://modern-calculator.com/search?q={search_term_string}" // 실제 검색 URL로 변경
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
